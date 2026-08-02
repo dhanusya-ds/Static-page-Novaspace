@@ -1,0 +1,115 @@
+<!-- TAILWIND CSS -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Account | NovaSpace</title>
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans bg-slate-100 flex justify-center items-center min-h-screen">
+<!-- 
+    font = sans-serif
+    bg color = bg-slate-100(light gray-blue)
+    flexbox = flex
+    content = justify-center
+    items = items center(vertical)
+    min height 100% viewport = min-h-screen
+    -->
+
+    <div class="w-[450px] bg-white p-11 rounded-2xl text-center shadow-lg">
+    <!-- 
+        width = 450px
+        bg color = white
+        padding = 11(al 4 sides)
+        border-radius = 15px(2xl)
+        text-align = center
+        shadow = large
+        -->
+
+        <h1 class="text-indigo-600 text-3xl font-bold mb-2">
+            NovaSpace
+        </h1>
+        <!-- 
+            text color = indigo-600
+            text size = 3xl(18px)
+            font weight = bold
+            margin bottom = 2(35px)
+            -->
+
+        <h2 class="text-2xl font-semibold mb-4">
+            Choose Your Account
+        </h2>
+        <!-- 
+            text size = 2xl(16px)
+            font weight =-semibold
+            margin bottom = 4(56px)
+        -->
+
+        <p class="text-gray-500 mb-9">
+            Select how you want to sign in.
+        </p>
+        <!-- 
+            text color = gray-500
+            margin bottom =9(126px)
+        -->
+
+        <div class="flex flex-col gap-5">
+        <!-- 
+            flex direction = column
+            gap = 5(70px)
+        -->
+
+            <a href="signin.html"
+               class="bg-indigo-600 hover:bg-indigo-700 text-white py-4 rounded-xl text-lg transition duration-300 no-underline">
+                User Login
+            </a>
+            <!-- 
+                background color = indigo-600
+                hover background color = indigo-700
+                text color = white
+                padding(top/bottom) = 4(56px)
+                border-radius = rounded-xl(15px)
+                text size = lg(18px)
+                transition = 300ms
+                no underline = text-decoration
+            -->
+
+            <a href="adminSignin.html"
+               class="bg-slate-800 hover:bg-slate-900 text-white py-4 rounded-xl text-lg transition duration-300 no-underline">
+                Admin Login
+            </a>
+            <!-- 
+                background color = slate-800(dark blue-gray)
+                hover background color = slate-900
+                text color = white
+                padding(top/bottom) = 4(56px)
+                border-radius = rounded-xl(15px)
+                text size = lg(18px)
+                transition = 300ms
+                no underline = text-decoration
+            -->
+
+        </div>
+
+        <a href="index.html"
+           class="inline-block mt-8 text-indigo-600 font-bold no-underline">
+            ← Back to Home
+        </a>
+        <!-- 
+            display: inline-block (behaves inline text but allows block properties)
+            text color = indigo-600
+            font weight = bold
+            margin top = 8(112px)
+            no underline = text-decoration
+        -->
+
+    </div>
+
+</body>
+
+</html>

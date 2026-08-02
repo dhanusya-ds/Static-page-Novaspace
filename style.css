@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f8fafc;
+    color:#333;
+}
+
+/* Navbar */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+    background:white;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.logo{
+    color:#4F46E5;
+    font-size:28px;
+}
+
+/* -Landing Page- */
+.menu{
+    display:flex;
+    list-style:none;
+}
+
+.menu li{
+    margin-left:30px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    color:#4F46E5;
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:60px;
+    margin-bottom:20px;
+    color:#1e293b;
+}
+
+.hero-text p{
+    font-size:18px;
+    color:#555;
+    line-height:1.7;
+    margin-bottom:30px;
+}
+
+/* Buttons */
+.buttons{
+    display:flex;
+    gap:20px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.primary{
+    background:#4F46E5;
+    color:white;
+}
+
+.primary:hover{
+    background:#4338ca;
+}
+
+.secondary{
+    border:2px solid #4F46E5;
+    color:#4F46E5;
+}
+
+.secondary:hover{
+    background:#4F46E5;
+    color:white;
+}
+
+/* Image */
+.hero-image{
+    width:45%;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:15px;
+}
+
+/* Footer */
+footer{
+    margin-top:60px;
+    background:#4F46E5;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
